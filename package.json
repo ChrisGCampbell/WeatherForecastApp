@@ -1,9 +1,9 @@
 {
-  "name": "hacker-news",
+  "name": "weather-forecast-app",
   "version": "1.0.0",
   "description": "Hacker News Clone in React",
   "main": "index.js",
-  "repository": "https://github.com/ChrisGCampbell/Hacker-News.git",
+  "repository": "https://github.com/ChrisGCampbell/WeatherForecastApp.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
@@ -30,10 +30,13 @@
     "babel-preset-stage-1": "^6.1.18",
     "classnames": "^2.2.5",
     "lodash": "^3.10.1",
+    "promise": "^8.0.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-redux": "5.0.7",
     "react-router": "^2.8.1",
-    "redux": "4.0.0"
+    "react-sparklines": "^1.7.0",
+    "redux": "^4.0.0",
+    "redux-promise": "^0.5.3"
   }
 }
